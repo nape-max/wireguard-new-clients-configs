@@ -1,7 +1,7 @@
 # Python script to automation create configuration for clients of your Wireguard VPN server
 
 ## { How to use }
-If your Wireguard server already configured, then just
+### **If your Wireguard server already configured, then just**
 1) Clone this repository and change paths to yours in lines 7-10:
 ```
 user_conf_for_client_dir = 'DIR_TO_STORE_WIREGUARD_CLIENT_CONFS'
@@ -39,7 +39,7 @@ python3 new-client.py YOUR_PREFIX
 <hr />
 <br />
 
-## { How to install (Wireguard install includes too) }
+## { How to install Wireguard and use }
 0) (not necessary) Update your server if it's new:
 ```
 sudo apt-get update && sudo apt-get upgrade
