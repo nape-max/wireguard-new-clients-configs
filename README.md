@@ -10,7 +10,7 @@ wg_publickey_path = 'PATH_TO_WIREGUARD_SERVER_PUBLICKEY'
 count_path = 'PATH_TO_COUNT_FILE'
 ```
 
-2) Add `1` to count file if you are haven't clients, or add number of clients plus one to this file. For example, file contents:
+2) Add `1` to count file in `count_path` if you are haven't clients, or add number of clients plus one to this file. For example, file contents:
 ```
 1
 ```
@@ -81,7 +81,7 @@ wg_publickey_path = 'PATH_TO_WIREGUARD_SERVER_PUBLICKEY'
 count_path = 'PATH_TO_COUNT_FILE'
 ```
 
-7) Add `1` to count file if you are haven't clients, or add number of clients plus one to this file. For example, file contents:
+7) Add `1` to count file in `count_path` if you are haven't clients, or add number of clients plus one to this file. For example, file contents:
 ```
 1
 ```
